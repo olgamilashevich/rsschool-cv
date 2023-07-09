@@ -4,42 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Volha Milashevich</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header>
-      <h1>Milashevich Volha</h1>
-      <h3>QA Engineer</h3>
-      <nav>
+      <div class="header-content-wrapper">
+        <div class="name-container">
+          <h1>Milashevich Volha</h1>
+          <h3>QA Engineer</h3>
+        </div>
+        <img src="./assets/photo.jpeg" class="photo" alt="Volha Milashevich" />
+      </div>
+
+      <nav class="header-nav-wrapper">
         <ul>
-          <li>
+          <li class="link">
             <a href="#summary">Summary</a>
           </li>
-          <li>
+          <li class="link">
             <a href="#skills">Skills</a>
           </li>
-          <li>
+          <li class="link">
             <a href="#workExperience">Work Experience</a>
           </li>
-          <li>
+          <li class="link">
             <a href="#education">Education</a>
           </li>
-          <li>
+          <li class="link">
             <a href="#languages">Languages</a>
           </li>
-          <li>
+          <li class="link">
             <a href="#codeExample">Code example</a>
           </li>
-          <li>
+          <li class="link">
             <a href="#contactInformation">Contact information</a>
           </li>
-          <li>
+          <li class="link">
             <a href="#complitedTasks">Complited tasks</a>
           </li>
         </ul>
       </nav>
     </header>
     <main>
-      <img src="./assets/photo.jpeg" alt="Volha Milashevich" />
       <h2><a id="summary"></a>Summary</h2>
       <p>
         I’m a self-motivated and organized person who wants to work, learn and
@@ -94,7 +100,7 @@
           }
         </code>
       </p>
-      <h2><a id="complitedTasks"></a>Complited tasks</h2>
+      <h2><a id="complitedTasks"></a>Completed tasks</h2>
       <ul>
         <li>
           <a
@@ -113,26 +119,33 @@
       </ul>
     </main>
     <footer>
-      <h3><a id="contactInformation"></a> Contact information</h3>
-      <nav>
-        <ul>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/olga-milashevich/"
-              target="_blank"
-              >LinkedIn</a
-            >
-          </li>
-          <li>
-            <a href="https://github.com/olgamilashevich" target="_blank"
-              >GitHub</a
-            >
-          </li>
-          <li><a href="mailto:milashevich.volha@gmail.com">Email</a></li>
-        </ul>
-      </nav>
+      <div class="contact-info-container">
+        <h2><a id="contactInformation"></a> Contact information</h2>
+        <nav>
+          <ul>
+            <li class="link">
+              <a
+                href="https://www.linkedin.com/in/olga-milashevich/"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+            <li class="link">
+              <a href="https://github.com/olgamilashevich" target="_blank"
+                >GitHub</a
+              >
+            </li>
+            <li class="link">
+              <a href="mailto:milashevich.volha@gmail.com">Email</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
       <a href="https://rs.school/js/" target="_blank">
-        <img src="./assets/rs_school_js.svg" alt="RS school: JS stage 0"
+        <img
+          src="./assets/rs_school_js.svg"
+          class="course-logo"
+          alt="RS school: JS stage 0"
       /></a>
       <p>2023</p>
     </footer>
